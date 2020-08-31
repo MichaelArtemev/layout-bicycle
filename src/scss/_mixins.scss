@@ -1,0 +1,5 @@
+@mixin font($fontFamily: Lato, $fontSize: 15px, $fontWeight: 400) {
+    font-family: $fontFamily, sans-serif;
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+}

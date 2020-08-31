@@ -1,0 +1,96 @@
+.subscribe {
+
+    // .subscribe__body
+
+    &__body {
+        padding: 110px 0;
+        max-width: 534px;
+        margin: 0px auto;
+        text-align: center;
+
+        img {
+            display: inline;
+        }
+    }
+
+    // .subscribe__logo
+
+    &__logo {
+        margin: 0 0 39px 0;
+    }
+
+    // .subscribe__label
+
+    &__label {
+        color: #848789;
+        font-size: 24px;
+        font-style: italic;
+        margin: 0 0 35px 0;
+    }
+
+    // .subscribe__form
+
+    &__form {
+        display: flex;
+        @media (max-width:496px){
+            flex-direction: column;
+        }
+    }
+
+    // .subscribe__input
+
+    &__input {
+        flex: 1 1 auto;
+        padding: 0 8px 0 0;
+
+        .input {
+            /* Style for "Shape 5" */
+            width: 100%;
+            height: 69px;
+            border: 1px solid #d3d7d9;
+            background-color: #ffffff;
+            padding: 0 28px;
+            /* Style for "enter your" */
+            color: #929292;
+            font-size: 20px;
+            line-height: 24px;
+            @media (max-width:496px){
+                margin: 0 0 20px 0;
+            }
+        }
+    }
+
+    // .subscribe__button
+
+    &__button {
+        flex: 0 0 126px;        
+            @media (max-width:496px){
+                max-width: 100%;
+            }               
+    }
+}
+
+.container {}
+
+.input {}
+
+.form {
+
+    // .form__btn
+
+    &__btn {
+        /* Style for "Shape 5 co" */
+        width: 126px;
+        height: 69px;
+        line-height: 69px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 300;
+        background-color: #64c29e;
+        @media (max-width:496px){
+            width: 100%;
+        }
+    }
+}
+
+.btn {}

@@ -1,0 +1,25 @@
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    color: $h1;
+    font-weight: 700;
+}
+
+body {
+    @include font();
+    color: $p;
+}
+
+.container {
+    max-width: 1130px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+button {
+    text-transform: uppercase;
+}
+.wrapper{
+    overflow: hidden;
+    min-height: 100%;
+}

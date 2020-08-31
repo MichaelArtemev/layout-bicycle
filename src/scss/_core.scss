@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 @import "_normalize.scss";
 @import "_custom-zeroing.scss";
-
-body {
-    transform: asd;
-}
+@import "_vars.scss";
+@import "_tpl.scss";
+@import "_mixins.scss";
+@import "_blocks.scss";
+@import "./layout/_hero.scss";
+@import "./layout/_header.scss";
+@import "./layout/_second.scss";
+@import "./layout/_brands.scss";
+@import "./layout/_slider.scss";
+@import "./layout/_shop.scss";
+@import "./layout/_sub.scss";
+@import "./layout/_footer.scss";

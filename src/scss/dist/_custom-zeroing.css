@@ -1,3 +1,11 @@
+@charset "UTF-8";
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 input,
 textarea {
   border: 0;
@@ -7,7 +15,18 @@ textarea {
   resize: none;
 }
 
-:active, :hover, :focus {
+li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+
+ul {
+  padding: 0;
+}
+
+:active,
+:hover,
+:focus {
   outline: 0;
   outline-offset: 0;
 }
@@ -21,4 +40,27 @@ button {
   cursor: pointer;
   border: 0;
   background-color: #fff;
+}
+
+.ibg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.ibg img {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
 }

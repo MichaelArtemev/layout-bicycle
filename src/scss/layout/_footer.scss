@@ -1,0 +1,52 @@
+.footer {
+    background-color: #f7f7f7;
+    // .footer__row
+    padding: 100px 0 103px 0;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .footer__column
+
+    &__column {}
+
+    // .footer__address
+
+    &__address {
+        color: #848789;
+        font-size: 14px;
+        font-style: italic;
+
+        :first-child {
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+
+    // .footer__dev
+
+    &__dev {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.container {}
+
+.dev {
+
+    // .dev__text
+
+    &__text {
+        margin: 0 20px 0 0;
+        /* Style for "Handcrafte" */
+        color: #848789;
+        font-family: Lato;
+        font-style: italic;
+        font-size: 14px;
+        line-height: 17.87px;
+    }
+}
